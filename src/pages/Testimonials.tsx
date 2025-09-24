@@ -9,7 +9,7 @@ const Testimonials = () => {
     {
       id: '1',
       name: 'Aisha Patel',
-      location: 'New York, USA',
+      location: 'Madurai, India',
       rating: 5,
       text: 'Total game-changer for my NRI wedding! Mumbai to NYC, flawless. The pleats stayed perfect throughout the 8-hour celebration.',
       image: '/src/images/image1.jpeg'
@@ -41,7 +41,7 @@ const Testimonials = () => {
     {
       id: '5',
       name: 'Riya Sharma',
-      location: 'London, UK',
+      location: 'Coimbatore, India',
       rating: 5,
       text: 'International shipping was seamless! My Diwali party saree arrived perfectly pleated. Everyone asked where I got it done.',
       image: '/src/images/image5.jpeg'
@@ -49,7 +49,7 @@ const Testimonials = () => {
     {
       id: '6',
       name: 'Kavitha Reddy',
-      location: 'Sydney, Australia',
+      location: 'Trichy, India',
       rating: 5,
       text: 'The eco-friendly approach won my heart. Beautiful pleats that didn\'t harm my grandmother\'s vintage saree.',
       image: '/src/images/image1.jpeg'
@@ -57,10 +57,10 @@ const Testimonials = () => {
   ];
 
   const stats = [
-    { number: '5,000+', label: 'Happy Customers' },
+    { number: '100+', label: 'Happy Customers' },
     { number: '4.9/5', label: 'Average Rating' },
-    { number: '50+', label: 'Cities Served' },
-    { number: '10,000+', label: 'Sarees Pleated' }
+    { number: '5+', label: 'Cities Served' },
+    { number: '150+', label: 'Sarees Pleated' }
   ];
 
   return (
@@ -174,7 +174,6 @@ const Testimonials = () => {
                 />
                 <div className="text-left">
                   <p className="font-semibold">Aditi Mehta</p>
-                  <p className="opacity-90">Mumbai Bride</p>
                 </div>
               </div>
             </div>
@@ -191,7 +190,7 @@ const Testimonials = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Join 5,000+ Happy Divas
+              Join 100+ Happy Divas
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               Ready to share your SareeGlow story?

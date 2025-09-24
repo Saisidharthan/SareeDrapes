@@ -1,7 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Star, Clock, Shield, Globe, MessageCircle, Truck, Scissors, Sparkles, Mail, Phone, MapPin, Zap, Crown, Heart, Package } from 'lucide-react';
+import { Clock, Crown, Globe, Heart, Mail, MapPin, MessageCircle, Phone, Scissors, Shield, Sparkles, Star, Truck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Button from '../components/UI/Button';
 import Card from '../components/UI/Card';
 
@@ -188,7 +187,7 @@ const Home = () => {
               Perfect for weddings, parties, or that bold 2025 vibe. Be timeless, effortlessly!
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Started in Mumbai, we're not just a pre-pleating service—we're your shortcut to saree perfection! 
+              Started in Coimbatore, we're not just a pre-pleating service—we're your shortcut to saree perfection! 
               From fluffy Kerala-style pleats to chic asymmetric cuts, our artisans mix old-school charm with new-age flair.
             </p>
             <Link to="/about">
@@ -517,11 +516,12 @@ const Home = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-amber-600" />
-                  <span className="text-gray-700">+91-98765-43210</span>
+                  <span className="text-gray-700">+91 7708032077</span>
+                  <span className="text-gray-700">+91 9442067037</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-amber-600" />
-                  <span className="text-gray-700">Mumbai Studio, Bandra West</span>
+                  <span className="text-gray-700">Kovai Pudur ,Sundakkamuthur ,Kuniyamuthur ,Coimbatore</span>
                 </div>
               </div>
 

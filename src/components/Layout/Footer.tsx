@@ -14,7 +14,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-sm">S</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-yellow-300 to-amber-200 bg-clip-text text-transparent">
-                SareeGlow
+                DIVA
               </span>
             </div>
             <p className="text-amber-100 mb-4">
@@ -78,11 +78,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2 text-amber-100">
                 <Phone size={16} className="text-yellow-300" />
-                <span>+91-98765-43210</span>
+                <span>+91-7708032077</span>
               </li>
               <li className="flex items-center space-x-2 text-amber-100">
                 <MapPin size={16} className="text-yellow-300" />
-                <span>Mumbai, India</span>
+                <span>Coimbatore, Tamil Nadu, India</span>
               </li>
             </ul>
           </div>

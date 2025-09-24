@@ -1,42 +1,41 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Leaf, Globe } from 'lucide-react';
+import { Globe, Heart, Leaf } from 'lucide-react';
 import Card from '../components/UI/Card';
 
 const About = () => {
   const values = [
     {
       icon: Heart,
-      title: 'Crafted with Heart',
-      description: 'Every pleat is made with love and attention to detail by our skilled artisans',
+      title: 'Dedicated Craftsmanship',
+      description: 'Expert artisans with years of experience in traditional and modern pleating techniques',
       image: '/src/images/image1.jpeg'
     },
     {
       icon: Leaf,
-      title: 'Green Today, Fab Tomorrow',
-      description: 'Biodegradable pins and reusable methods to keep it eco-chic',
+      title: 'Your Satisfaction, Our Success',
+      description: 'Happy clients wearing their perfectly pleated sarees with confidence and elegance',
       image: '/src/images/image2.jpeg'
     },
     {
       icon: Globe,
-      title: 'Your Smile, Our Win',
-      description: 'Making women worldwide shine effortlessly in their sarees',
+      title: 'Sustainable Solutions',
+      description: 'Eco-friendly packaging and biodegradable materials for conscious fashion choices',
       image: '/src/images/image3.jpeg'
     }
   ];
 
   const commitments = [
     {
-      title: 'For Every You',
-      description: 'Pleats that fit every body—petite, curvy, or queen-size'
+      title: 'Inclusive Fit',
+      description: 'Tailored pleating for all body types—tiny, curvy, or plus-size. Every woman deserves perfect draping.'
     },
     {
-      title: 'Green & Gorgeous',
-      description: 'Biodegradable pins, reusable methods to keep it eco-chic'
+      title: 'Sustainable Practices',
+      description: 'Biodegradable pins and reusable packaging for an eco-friendly approach to fashion.'
     },
     {
-      title: 'Global Love',
-      description: 'India or overseas, we ship seamless joy for NRI festivities'
+      title: 'Wide Reach',
+      description: 'Serving Coimbatore locations and offering nationwide courier services across India.'
     }
   ];
 
@@ -81,8 +80,8 @@ const About = () => {
             className="prose prose-lg max-w-none"
           >
             <p className="text-xl text-gray-600 leading-relaxed mb-6">
-              Started in 2023 in Mumbai, we're not just a pre-pleating service—we're your shortcut to saree perfection! 
-              In 2025's fast world, we slow down to cherish your saree's magic: its flow, its story, its vibe.
+              Founded in 2025 in Coimbatore, Diva's Pre-Pleating is more than a service—it's a commitment to effortless style. In today's fast-paced world, we dedicate ourselves to enhancing your saree's beauty and functionality, preserving its fabric and heritage with every fold. From traditional pleats to contemporary designs
+              , our skilled team blends expertise with innovation to meet your needs.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               From fluffy Kerala-style pleats to chic asymmetric cuts for city brides, our artisans mix old-school 

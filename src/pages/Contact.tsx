@@ -16,13 +16,13 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone/WhatsApp',
-      value: '+91-98765-43210',
-      href: 'tel:+919876543210'
+      value: '+91-7708032077',
+      href: 'tel:+917708032077'
     },
     {
       icon: MapPin,
       label: 'Studio Address',
-      value: 'Coimbatore Studio, 641010 (Pickup by appointment)',
+      value: 'Coimbatore Studio, 641010 ',
       href: '#'
     },
     {
