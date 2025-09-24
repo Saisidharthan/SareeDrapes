@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { Globe, Heart, Leaf } from 'lucide-react';
 import Card from '../components/UI/Card';
+import Image1 from '../assets/image1.jpeg';
+import Image2 from '../assets/image2.jpeg';
+import Image3 from '../assets/image3.jpeg';
+import Image5 from '../assets/image5.jpeg';
 
 const About = () => {
   const values = [
@@ -8,19 +12,19 @@ const About = () => {
       icon: Heart,
       title: 'Dedicated Craftsmanship',
       description: 'Expert artisans with years of experience in traditional and modern pleating techniques',
-      image: '/src/images/image1.jpeg'
+      image: Image1
     },
     {
       icon: Leaf,
       title: 'Your Satisfaction, Our Success',
       description: 'Happy clients wearing their perfectly pleated sarees with confidence and elegance',
-      image: '/src/images/image2.jpeg'
+      image: Image2
     },
     {
       icon: Globe,
       title: 'Sustainable Solutions',
       description: 'Eco-friendly packaging and biodegradable materials for conscious fashion choices',
-      image: '/src/images/image3.jpeg'
+      image: Image3
     }
   ];
 
@@ -47,7 +51,7 @@ const About = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: 'url(/src/images/image5.jpeg)'
+            backgroundImage: `url(${Image5})`
           }}
         ></div>
         

@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { ChevronDown, MessageCircle, Scissors, Sparkles, Truck } from 'lucide-react';
 import Button from '../components/UI/Button';
 import Card from '../components/UI/Card';
+import Image4 from '../assets/image4.jpeg';
+import Image5 from '../assets/image5.jpeg';
 
 const HowItWorks = () => {
   const steps = [
@@ -119,7 +121,7 @@ const HowItWorks = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="relative">
                 <img
-                  src="/src/images/image4.jpeg"
+                  src={Image4}
                   alt="Before - Messy saree"
                   className="w-full h-64 object-cover rounded-xl"
                 />
@@ -129,7 +131,7 @@ const HowItWorks = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/src/images/image5.jpeg"
+                  src={Image5}
                   alt="After - Perfect pleated saree"
                   className="w-full h-64 object-cover rounded-xl"
                 />

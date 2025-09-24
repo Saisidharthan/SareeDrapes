@@ -3,6 +3,12 @@ import { Clock, Crown, Globe, Heart, Mail, MapPin, MessageCircle, Phone, Scissor
 import { Link } from 'react-router-dom';
 import Button from '../components/UI/Button';
 import Card from '../components/UI/Card';
+import Image1 from '../assets/image1.jpeg';
+import Image2 from '../assets/image2.jpeg';
+import Image3 from '../assets/image3.jpeg';
+import Image4 from '../assets/image4.jpeg';
+import HeroImage from '../assets/hero.png';
+import BorderImage from '../assets/border1.jpeg';
 
 const Home = () => {
   const features = [
@@ -47,22 +53,22 @@ const Home = () => {
   const sareeStyles = [
     {
       title: 'Pastel Organza',
-      image: '/src/images/image1.jpeg',
+      image: Image1,
       description: 'Light, airy, perfect for daytime events',
     },
     {
       title: 'Kanjivaram Fusion',
-      image: '/src/images/image2.jpeg',
+      image: Image2,
       description: 'Traditional meets contemporary',
     },
     {
       title: 'Slit Design',
-      image: '/src/images/image3.jpeg',
+      image: Image3,
       description: 'Bold and trendy for modern queens',
     },
     {
       title: 'Tissue Elegance',
-      image: '/src/images/image4.jpeg',
+      image: Image4,
       description: 'Shimmery perfection for special occasions',
     },
   ];
@@ -141,7 +147,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/src/images/hero.png)'
+            backgroundImage: `url(${HeroImage})`
           }}
         ></div>
         
@@ -238,7 +244,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: 'url(/src/images/image1.jpeg)'
+            backgroundImage: `url(${Image1})`
           }}
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -492,7 +498,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: 'url(/src/images/image4.jpeg)'
+            backgroundImage: `url(${Image4})`
           }}
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -583,7 +589,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
-            backgroundImage: 'url(/src/images/border1.jpeg)'
+            backgroundImage: `url(${BorderImage})`
           }}
         ></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

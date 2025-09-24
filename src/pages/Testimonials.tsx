@@ -3,6 +3,11 @@ import { Quote, Star } from 'lucide-react';
 import Button from '../components/UI/Button';
 import Card from '../components/UI/Card';
 import { Testimonial } from '../types';
+import Image1 from '../assets/image1.jpeg';
+import Image2 from '../assets/image2.jpeg';
+import Image3 from '../assets/image3.jpeg';
+import Image4 from '../assets/image4.jpeg';
+import Image5 from '../assets/image5.jpeg';
 
 const Testimonials = () => {
   const testimonials: Testimonial[] = [
@@ -12,7 +17,7 @@ const Testimonials = () => {
       location: 'Madurai, India',
       rating: 5,
       text: 'Total game-changer for my NRI wedding! Mumbai to NYC, flawless. The pleats stayed perfect throughout the 8-hour celebration.',
-      image: '/src/images/image1.jpeg'
+      image: Image1
     },
     {
       id: '2',
@@ -20,7 +25,7 @@ const Testimonials = () => {
       location: 'Chennai, India',
       rating: 5,
       text: 'Fluffy organza pleats? Diwali perfection! My mother-in-law was so impressed, she asked for the service details.',
-      image: '/src/images/image2.jpeg'
+      image: Image2
     },
     {
       id: '3',
@@ -28,7 +33,7 @@ const Testimonials = () => {
       location: 'Hyderabad, India',
       rating: 5,
       text: 'Mom of two, no time—this fit my curves and saved my day! The kids couldn\'t mess up my pleats no matter how they tried.',
-      image: '/src/images/image3.jpeg'
+      image: Image3
     },
     {
       id: '4',
@@ -36,7 +41,7 @@ const Testimonials = () => {
       location: 'Bangalore, India',
       rating: 5,
       text: 'No more wedding chaos—my silk saree draped like a dream! The pre-pleating made me feel like a queen.',
-      image: '/src/images/image4.jpeg'
+      image: Image4
     },
     {
       id: '5',
@@ -44,7 +49,7 @@ const Testimonials = () => {
       location: 'Coimbatore, India',
       rating: 5,
       text: 'International shipping was seamless! My Diwali party saree arrived perfectly pleated. Everyone asked where I got it done.',
-      image: '/src/images/image5.jpeg'
+      image: Image5
     },
     {
       id: '6',
@@ -52,7 +57,7 @@ const Testimonials = () => {
       location: 'Trichy, India',
       rating: 5,
       text: 'The eco-friendly approach won my heart. Beautiful pleats that didn\'t harm my grandmother\'s vintage saree.',
-      image: '/src/images/image1.jpeg'
+      image: Image1
     }
   ];
 
@@ -168,7 +173,7 @@ const Testimonials = () => {
               </p>
               <div className="flex items-center justify-center space-x-4">
                 <img
-                  src="/src/images/image2.jpeg"
+                  src={Image2}
                   alt="Featured customer"
                   className="w-12 h-12 rounded-full object-cover"
                 />
